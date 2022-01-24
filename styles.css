@@ -71,5 +71,12 @@ body {
 
 .attribution { 
     text-align: center;
-    margin-top: 32px; 
+    font-size: 11px;
+
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+.attribution a { color: hsl(228, 45%, 44%); }
